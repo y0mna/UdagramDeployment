@@ -1,0 +1,36 @@
+connect to github repo
+make sure it works locally first
+
+NB: You will need to list @angular/cli as a devDependency in your project if it's not already done. The angular will be needed in your pipeline eventually.
+
+Be sure to confirm that your project runs locally before you try to deploy the app.
+
+US East (N. Virginia) (us-east-1).
+
+
+Submission Instructions
+Provide the link to your hosted working Front-End Application in the README
+Include a screenshot of your last build in CircleCi (either include screenshots in the GitHub repo or upload into the Workspace)
+Include screenshots of the configuration page of your AWS services (either include screenshots in the GitHub repo or upload them into the Workspace)
+
+In order to complete the project you will need to do the following:
+
+Provision the necessary AWS services your app needs
+Deploy your application to those services
+Connect your GitHub repo to CircleCI
+Configure a CircleCI pipeline to automate your deployments
+Document the infrastructure needs (RDS, S3 Elastic Beanstalk, etc) and explain the different steps in the pipeline
+Create architecture diagrams for an overview of the infrastructure and the pipeline
+Your project final project should include the following files and folders:
+
+.circleci/config.yml
+a root level package.json
+a Readme with some basic documentation
+a docs folder to include architecture diagram and more detailed documentation files (MD format) on infrastructure description, app dependencies, and pipeline process
+Suggestions to Make Your Project Stand Out!
+Make your pipeline run the front-end unit tests! You will need to figure out how to run mocha in a CI env
+Make Pull Requests builds so that each time you open a pull request against the main branch, your tests and build are executed.
+Make separate environments for staging and production in elastic beanstalk and s3. Deploy PR code to the staging and Main to Production.
+To review the detailed requirements for the project, look at the project rubric.
+
+;
