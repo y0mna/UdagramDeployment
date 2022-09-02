@@ -1,0 +1,14 @@
+The pipeline (circleci + Github)
+
+th deployment contains 3 steps :
+1- build
+   for frontend and backend projects
+   we install dependencies , build the project and persist the file resulting from the build 
+   so that it will be used for the deploy step
+   
+2- manual approval
+   the code will not be deployed unless approved manually 
+
+3- deployment
+   for both backend and frontend
+   only the build folders will be deployed

@@ -1,0 +1,10 @@
+The Udagram consists of 2 projects (api & frontend)
+
+API -> node project using express 
+Frontend -> angular + ionic
+
+requirements: node v14.15
+
+
+
+

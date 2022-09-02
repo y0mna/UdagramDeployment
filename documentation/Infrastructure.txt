@@ -1,0 +1,12 @@
+For AWS deployment the following was used:
+
+EBS -> elascticbeanstalk to host the backend
+       the build file only was deployed , we needed node version 14.15
+
+S3  -> bucket to host frontend project 
+       the build file only was deployed , it contains html , css and javascript
+       that's why we choose static web hosting
+
+RDS -> relational database
+       to persist our data
+
